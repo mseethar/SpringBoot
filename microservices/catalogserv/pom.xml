@@ -17,14 +17,14 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <ratingserv.version>0.0.1-SNAPSHOT</ratingserv.version>
-        <bookinfoserv.version>0.0.1-SNAPSHOT</bookinfoserv.version>
+        <movieinfoserv.version>0.0.1-SNAPSHOT</movieinfoserv.version>
         <spring-cloud.version>2020.0.2</spring-cloud.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.picokernel</groupId>
-            <artifactId>bookinfoservApi</artifactId>
-            <version>${bookinfoserv.version}</version>
+            <artifactId>movieinfoservApi</artifactId>
+            <version>${movieinfoserv.version}</version>
         </dependency>
         <dependency>
             <groupId>org.picokernel</groupId>

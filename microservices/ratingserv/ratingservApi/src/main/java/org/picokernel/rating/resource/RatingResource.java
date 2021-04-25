@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/ratings")
 public interface RatingResource {
 
-    @RequestMapping("/books/{bookName}")
-    public Rating getRating(@PathVariable("bookName") String bookName);
+    @RequestMapping("/movies/{movieName}")
+    public Rating getRating(@PathVariable("movieName") String movieName);
 }
