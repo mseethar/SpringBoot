@@ -13,3 +13,5 @@ buildNumber.properties
 SpringBoot.iml
 microservices/microservices.iml
 microservices/catalogserv/catalogserv.iml
+*.iml
+ratingserv/ratingserv.iml
