@@ -6,4 +6,4 @@ server:
 #    fetch-registry: true
 spring:
   application:
-    name: bookinfoserv
+    name: movieinfoserv

@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/ratings")
 public class RatingResourceImpl implements RatingResource {
 
-    @RequestMapping("/books/{bookName}")
-    public Rating getRating(@PathVariable("bookName") String bookName) {
+    @RequestMapping("/movies/{movieName}")
+    public Rating getRating(@PathVariable("movieName") String movieName) {
         return new Rating(3);
     }
 }
